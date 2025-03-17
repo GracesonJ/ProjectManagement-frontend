@@ -1,18 +1,19 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
+import Image from 'react-bootstrap/Image';
 
 function Testimonials() {
   return (
     <>
 
-      <div className="container mt-5">
-        <h1 className='text-center'>Our Clients Reviews</h1>
+      <div className="container mt-5 pt-1">
+        <h1 className='text-center mt-5 pt-5'>Our Clients Reviews</h1>
         <div className="row mt-5">
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%"}} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -23,8 +24,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -35,8 +36,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -47,8 +48,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -59,8 +60,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -71,8 +72,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%"}} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -83,8 +84,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -95,8 +96,8 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
@@ -107,8 +108,32 @@ function Testimonials() {
           </div>
           <div className="col-md-3 ">
             <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
-              <Card.Img className='' variant="top" style={{ width: '70%', height: "70%", borderRadius: "100%" }} src="https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg" />
-              <Card.Body>
+            <Image style={{ width: "50%"}} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
+                <Card.Title className='text-center'>Johnson James</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-md-3 ">
+            <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
+                <Card.Title className='text-center'>Johnson James</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-md-3 ">
+            <Card border="light" style={{ width: '100%' }} className='d-flex justify-content-center align-items-center p-3 shadow mt-5'>
+            <Image style={{ width: "50%", height: "50%" }} src="https://e7.pngegg.com/pngimages/550/997/png-clipart-user-icon-foreigners-avatar-child-face.png" roundedCircle />
+            <Card.Body>
                 <Card.Title className='text-center'>Johnson James</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the

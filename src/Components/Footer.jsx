@@ -6,21 +6,20 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-      <div className=" bg-success rounded rounded-5 m-5 p-5 mb-4">
+      <div className=" bg-black rounded rounded-5 m-5 p-5 mb-4">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-4">
               <h3 className='text-light fw-bolder'>NextPlan <FontAwesomeIcon icon={faStackOverflow} className='me-5' /></h3>
-              <p className='mt-3' style={{ textAlign: 'justify', color:"black" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eveniet aliquam harum! Veniam ipsum voluptatibus consequuntur dolorem aspernatur. Aliquam reiciendis dolores dignissimos aperiam praesentium suscipit harum! Qui nisi aut consectetur?</p>
+              <p className='mt-3' style={{ textAlign: 'justify', color:"white" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eveniet aliquam harum! Veniam ipsum voluptatibus consequuntur dolorem aspernatur. Aliquam reiciendis dolores dignissimos aperiam praesentium suscipit harum! Qui nisi aut consectetur?</p>
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-2 d-md-flex justify-content-center">
               <div>
                 <h3 className='text-light fw-bolder'>GUIDES</h3>
-                <Link to={'/'}><p className='mt-4 fs-bolder' style={{color:"black"}}>HOME</p></Link>
-                <Link to={'/about'}><p className=' fs-bolder' style={{color:"black"}}>ABOUT</p></Link>
-                <Link to={'/testimonials'}><p className=' fs-bolder' style={{color:"black"}}>TESTIMONIALS</p></Link>
-                <Link to={'/contact'}><p className=' fs-bolder' style={{color:"black"}}>CONTACT</p></Link>
+                <Link to={'/'} style={{textDecoration:"none"}}><p className='mt-4 fs-bolder' style={{color:"white"}}>HOME</p></Link>
+                <Link to={'/testimonials'} style={{textDecoration:"none"}}><p className=' fs-bolder' style={{color:"white"}}>TESTIMONIALS</p></Link>
+                <Link to={'/contact'} style={{textDecoration:"none"}}><p className=' fs-bolder' style={{color:"white"}}>CONTACT</p></Link>
               </div>
             </div>
             <div className="col-md-1"></div>

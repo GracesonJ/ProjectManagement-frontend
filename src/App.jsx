@@ -13,9 +13,9 @@ import PagenotFound from './Pages/PagenotFound'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Auth from './Pages/Auth'
+import WorkspaceReg from './Pages/WorkspaceReg'
 
 function App() {
-
 
   return (
     <>
@@ -23,14 +23,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/dashboard' element={<Dashboard />} />
-        <Route path='/Projectmanagement' element={<ProjectManagement />} />
-        <Route path='/taskmanagement' element={<TaskManagement/>} />
+        <Route path='/Projectmanagement' element={<ProjectManagement />} /> 
+        <Route path='/taskmanagement' element={<TaskManagement/>} /> 
         <Route path='/reports' element={<Reports />} />
         <Route path='/testimonials' element={<Testimonials />} />
         <Route path='/usermanagement' element={<UserManagement />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Auth/>}/>
-        <Route path='/register' element={<Auth/>}/>
+        <Route path='/workspaceregister' element={<WorkspaceReg/>}/>
         <Route path='/*' element={<PagenotFound/>}/>
       </Routes>
       <Footer/>
