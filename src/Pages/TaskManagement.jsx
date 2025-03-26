@@ -21,9 +21,9 @@ function TaskManagement() {
               </div> <hr className='w-100 text-warning' />
               <div className="d-flex justify-content-around align-items-center">
                 <div className='me-auto'><p className='text-white'>All Users</p></div>
-                <div className="ms-auto d-flex">
+                <div className="ms-auto d-flex justify-content-center align-items-center">
                   <input type="text" className='form-control me-3 ' placeholder='Search Project...' />
-                  <div className='mt-2'>
+                  <div className=''>
                     <Dropdown className='me-3'>
                       <Dropdown.Toggle variant="success" id="dropdown-basic" className='bg-dark'>
                         Filter
@@ -35,7 +35,7 @@ function TaskManagement() {
                       </Dropdown.Menu>
                     </Dropdown>
                   </div>
-                  <button className='btn'><AddTask /></button>
+                  <div className=''><AddTask /></div>
                 </div>
               </div>
 
